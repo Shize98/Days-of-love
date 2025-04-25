@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Love Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="landing-page">
+        <h1>Welcome to the Pixel Love Game!</h1>
+        <button id="start-btn">Start the Journey</button>
+    </div>
+
+    <div class="cinnamon-slide" id="cinnamon-slide">
+        <img src="images/cinnamon_character.png" alt="Cinnamon Character">
+        <div class="chat-bubble">I love you, ksyu!</div>
+        <button id="next-btn-1">Next</button>
+    </div>
+
+    <div class="cat-selection" id="cat-selection">
+        <h2>Choose Your Cat Companion</h2>
+        <div class="cats">
+            <img src="images/cat1.png" alt="Cat 1" class="cat" onclick="selectCat('Cat 1')">
+            <img src="images/cat2.png" alt="Cat 2" class="cat" onclick="selectCat('Cat 2')">
+            <img src="images/cat3.png" alt="Cat 3" class="cat" onclick="selectCat('Cat 3')">
+            <img src="images/cat4.png" alt="Cat 4" class="cat" onclick="selectCat('Cat 4')">
+        </div>
+    </div>
+
+    <div class="avatar-selection" id="avatar-selection">
+        <h2>Your Pixel Avatar</h2>
+        <img src="images/pixel_avatar.png" alt="Your Avatar">
+        <p>Click your avatar to confirm.</p>
+        <button id="next-btn-2">Next</button>
+    </div>
+
+    <div class="love-slide" id="love-slide">
+        <h2>Perfect Match ❤️</h2>
+        <img src="images/couple_pixel.png" alt="Pixel Couple">
+        <div class="chat-bubble">Together Forever 🖤</div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
